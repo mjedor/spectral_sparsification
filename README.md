@@ -1,1 +1,1 @@
-# Spectral_Sparsification
+# Spectral sparsification
