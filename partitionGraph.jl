@@ -1,3 +1,7 @@
+"""Partition a graph"""
+# B edge vextex signed matrix
+# a weights of edges
+# k number of partitions
 function partitionGraph(B::SparseMatrixCSC{Int64,Int64},a::Vector{Float64},k::Int64)
 
   m_l = div(size(B,1),k); # All sub-graphs have almost the same number of edges

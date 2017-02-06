@@ -1,3 +1,4 @@
+"""Returns a (1 ± ɛ) sparsifier"""
 function sparsify(A::SparseMatrixCSC,k::Int64,qBar::Int64;epsilon=0.1)
   # Partion graph
   B_l,a_l = partitionGraph(A,k);

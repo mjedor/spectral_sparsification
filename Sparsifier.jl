@@ -1,3 +1,4 @@
+# Type Sparsifier
 type Sparsifier
   B::SparseMatrixCSC{Int64,Int64}
   a::Vector{Float64}

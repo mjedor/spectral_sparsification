@@ -1,4 +1,4 @@
-"""calculate effective resistances in a given graph"""
+"""Calculate effective resistances in a given graph"""
 function effectiveResistances(B::SparseMatrixCSC{Int64,Int64},a::Vector{Float64};epsilon::Float64=0.1)
 
   # Creating data for effective resitances

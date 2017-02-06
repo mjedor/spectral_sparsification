@@ -1,4 +1,6 @@
+"""Returns a Graph generated according to the Stochastic Block Model (SBM)"""
 # n : number of vertices in each block
+# P : matrix of probabilities inter-communities
 function stochastic_block_model(P::Matrix{Float64}, n::Vector{Int}; seed::Int = -1)
   # init dsfmt generator without altering GLOBAL_RNG
   seed = -1;

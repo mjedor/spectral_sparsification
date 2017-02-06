@@ -1,3 +1,4 @@
+"""Merge-Resparsify function"""
 function mergeResparsify(H1::Sparsifier,H2::Sparsifier,qBar::Int64;epsilon=0.1)
 
   # Compute effectives resistances

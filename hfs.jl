@@ -1,3 +1,4 @@
+"""Computes harmonic function solution"""
 function iterative_hfs(A::SparseMatrixCSC,Y_masked::Vector{Int64},l::Int64,T::Int64;tol = 0.50)
 
   num_samples = size(A,1);
